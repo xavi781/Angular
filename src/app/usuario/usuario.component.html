@@ -1,0 +1,13 @@
+
+
+
+<div class="recuadro">
+    <h2 appHighlight> Nombres: {{usuario.name | uppercase}} </h2>
+    <h2 > Usuarios: {{usuario.username}} </h2>
+    <h2 > Email: {{usuario.email}} </h2>
+    <h2 > Ciudad: {{usuario.address.city}} </h2>
+    <h2 > Celular: {{usuario.phone}} </h2>
+    <h2 > Sitio web: {{usuario.website}} </h2>
+    <h2 > Compañia {{usuario.company.name}} </h2>
+    <button [routerLink]="['/users',usuario.id]"> ver detalle</button>
+</div>

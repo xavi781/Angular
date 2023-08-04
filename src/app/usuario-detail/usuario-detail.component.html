@@ -1,0 +1,17 @@
+<div>
+
+</div>
+<div *ngIf="usuario" class="recuadro">
+    <ul>
+        <li>Nombre: {{usuario.name}} </li>
+        <li>Phone: {{usuario.phone}} </li>
+        <li>Website:{{usuario.website}} </li>
+        <li>Nombre de la compañia :{{usuario.company.name}} </li>
+        <li>CatchPhrase:{{usuario.company.catchPhrase}} </li>
+        <li>Bs:{{usuario.company.bs}} </li>
+        
+    </ul>
+    <button (click)="createUsuario()">Crear</button>
+    <button (click)="updateUsuario()">Update</button>
+    <button (click)="deleteUsuario()">Delete</button>
+</div>

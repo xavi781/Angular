@@ -1,0 +1,8 @@
+
+<p>lista-usuarios works!</p>
+<h1> {{ 'Usuarios'| uppercase }} </h1>
+<div >
+  <app-usuario 
+  *ngFor="let usuario of usuarios"
+  (usuarioClicked)=" clickUsuario($event)" [usuario]="usuario"> </app-usuario> //
+</div>

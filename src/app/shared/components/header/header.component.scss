@@ -1,0 +1,28 @@
+.header-nav {
+    background-color: #a09494;  /* Color de fondo del header */
+    padding: 20px;  /* Espaciado interno del header */
+    display: flex;  /* Mostrar los enlaces en línea */
+    justify-content: space-between;  /* Distribuir los enlaces a los extremos */
+    align-items: center;  /* Centrar verticalmente los enlaces */
+  }
+  
+  .header-nav a {
+    color: #fff;  /* Color del texto de los enlaces */
+    text-decoration: none;  /* Eliminar subrayado de los enlaces */
+    font-size: 18px;  /* Tamaño de fuente de los enlaces */
+    font-weight: bold;  /* Negrita en los enlaces */
+    margin-right: 20px;  /* Espaciado derecho entre los enlaces */
+    transition: color 0.3s ease-in-out;  /* Transición suave al pasar el mouse */
+  }
+  
+  .header-nav a:hover {
+    color: rgb(40, 41, 41);  /* Color del texto al pasar el mouse por encima */
+  }
+  
+  .header-nav a:last-child {
+    margin-right: 0;  /* Anular margen derecho del último enlace */
+  }
+
+  nav > a.active{
+    background-color: rgb(206, 201, 201);
+  }

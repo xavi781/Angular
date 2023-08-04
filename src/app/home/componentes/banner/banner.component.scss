@@ -1,0 +1,19 @@
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-wrapper {
+    display: flex;
+  }
+  
+  .swiper-slide {
+    flex: 0 0 auto;
+  }
+  
+  .swiper-image {
+    width: 100%;  // Utiliza el ancho del contenedor padre
+  height: auto; // Ajusta la altura automáticamente para mantener la proporción
+  object-fit: cover; // Ajusta cómo se ajusta la imagen dentro del contenedor
+  margin-right: 10px; // Añade un margen derecho entre las imágenes
+  }
